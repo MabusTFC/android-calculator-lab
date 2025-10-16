@@ -11,7 +11,7 @@ android {
 
     defaultConfig {
         applicationId = "com.example.lesson5"
-        minSdk = 24
+        minSdk = 26
         targetSdk = 36
         versionCode = 1
         versionName = "1.0"
@@ -50,6 +50,7 @@ dependencies {
     implementation(libs.androidx.constraintlayout)
     implementation("dev.androidbroadcast.vbpd:vbpd:2.0.4")
     implementation(libs.androidx.runtime.saved.instance.state)
+    implementation(libs.androidx.gridlayout)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
