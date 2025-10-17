@@ -118,7 +118,7 @@ class MainFragment: Fragment(), View.OnClickListener {
         if (result % 1 == 0.0) {
             return result.toInt().toString()
         } else {
-            return result.toString().replace(".", ",")
+            return "%.4f".format(result).replace(".", ",")
         }
 
     }
