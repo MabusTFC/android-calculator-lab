@@ -23,9 +23,12 @@
 
     <TextView
         android:id="@+id/top_text"
-        android:layout_width="152dp"
+        android:layout_width="398dp"
         android:layout_height="40dp"
+        android:layout_marginEnd="6dp"
+        android:ellipsize="start"
         android:gravity="end"
+        android:singleLine="true"
         android:text=""
         android:textColor="@color/calc_main_gray"
         android:textSize="30sp"
@@ -78,11 +81,11 @@
 
         <Button
             android:id="@+id/buttonDiv"
+            android:layout_width="wrap_content"
             android:layout_height="90dp"
-            android:layout_width="90dp"
-            android:backgroundTint="@color/calc_right_green"
             android:layout_marginEnd="12dp"
             android:layout_marginBottom="12dp"
+            android:backgroundTint="@color/calc_right_green"
             android:text="@string/button_div"
             android:textSize="29sp"
             app:layout_column="3" />
